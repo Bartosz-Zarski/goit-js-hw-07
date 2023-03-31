@@ -33,10 +33,12 @@ galleryFragments.forEach(image => {
       .create(`<img id="modal-lightbox" width="1280" height="853" src="${image.dataset.source}">`)
       .show();
 
-    document.body.addEventListener('keypress', e => {
+    document.addEventListener('keydown', e => {
       if (e.key === 'Escape') {
         instance.close();
       }
     });
   };
 });
+
+
