@@ -1,2 +1,2 @@
 Praca domowa nr 7 
-https://github.com/Bartosz-Zarski/goit-js-hw-07
+https://bartosz-zarski.github.io/goit-js-hw-07/
