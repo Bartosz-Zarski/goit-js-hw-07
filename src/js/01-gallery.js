@@ -31,7 +31,8 @@ galleryFragments.forEach(image => {
   image.onclick = () => {
     const instance = basicLightbox
       .create(`<img id="modal-lightbox" width="1280" height="853" src="${image.dataset.source}">`)
-      .show();
+      
+      instance.show();
 
     document.addEventListener('keydown', e => {
       if (e.key === 'Escape') {
